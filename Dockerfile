@@ -14,7 +14,7 @@ RUN npm ci --only=production
 COPY . .
 
 # Expose the port your Express app listens on (e.g., 3000)
-EXPOSE 3060
+EXPOSE 3000
 
 # Set environment variable to production
 ENV NODE_ENV=production
