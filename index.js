@@ -4,7 +4,7 @@ const app = express()
 
 app.use(express.json());
 
-const PORT = 3060;
+const PORT = 3000;
 
 let users = [
     {
